@@ -380,22 +380,25 @@ and realize whether in some cases the model significantly deviates from its norm
 % Concludi con esempio di sweep sull'esempio abcd (erk etc): son 3125 simulazioni se lo fai
 %  andare solo sui parametri ``slow'', ``medium'', etc e con le 5 interazioni di abcde
 We now present an example application of ANIMO's parameter sweep feature on the model shown in Figure~\ref{fig:animo-ui}.
-This allows us to make a more exhaustive search than the one presented in Figure~\ref{fig:small-example-feedback},
-using an automatic approach instead of a manual search.
+Thanks to parameter sweep, we can make a more exhaustive search than the one presented in Figure~\ref{fig:small-example-feedback},
+using an automatic approach instead of a manual trial-and-error process.
 A logarithmic parameter sweep was performed, letting the parameter values
-vary over the 5 pre-sets ``very slow'' ($k = 0.001$), ``slow'' ($k = 0.002$), \dots, ``very fast'' ($k = 0.016$)
+vary over the 5 pre-sets ``very slow'' ($k = 0.001$), ``slow'' ($k = 0.002$), ``medium'' ($k = 0.004$), ``fast'' ($k = 0.008$), ``very fast'' ($k = 0.016$)
 for all 5 interactions in the network. This resulted in $\mbox{\it parameter choices}^{\mbox{\it\scriptsize interactions}} = 5 ^ 5 = 3\,125$ simulations, that were computed
 in 43 seconds %43 s with 16 threads. It is 57 with 8 threads (cpu is exploited less than 100%)
 on an eight-core Intel\circledR\ Core$^{\mbox{\scriptsize\texttrademark}}$ i7 CPU at 2.80GHz equipped with 4 Gb RAM
 and running Ubuntu GNU/Linux 13.10 64bit. The model we consider here is small enough for one simulation to take
 less than a second, but the exponential growth of the number of simulations required for a parameter sweep
-makes the sheer number of tasks challenging for any processing unit.
+can make the sheer number of tasks challenging for any processing unit.
 % Indeed, a more thorough
 % parameter sweep that considers 10 different setting for each of the 5 interactions of the considered
 % model would require the computation of $10^5 = 100\,000$ simulations.
-Indeed, a more complex model involving 10 interactions instead of 5 would require $5^{10} = 9\,765\,625$ simulations,
-which could be computed in approximately a day and a half on an eight-core machine. Yet, such an
-estimation would still be better than the twelve days it would take if the simulations were to be computed in sequence.
+For example, a more complex model involving 10 interactions instead of 5 would require $5^{10} = 9\,765\,625$ simulations,
+which could be computed in approximately a day and a half on an eight-core machine.
+Still, the possibility to compute simulations in parallel provides a significant help in reducing
+the impact of an exponential growth of the space to be explored.
+% Yet, such an
+% estimation would still be better than the twelve days it would take if the simulations were to be computed in sequence.
 % the same experiment
 % was run executing only one simulation at a time, and it took about 7 minutes and 34 seconds, %453837 ms
 % which is in line with the fact that this type of analysis is trivially parallelizable.
@@ -406,6 +409,11 @@ By interacting with the interface, the user can choose to see more of the top-sc
 the width of the parameter settings for which the wanted behavior can still be considered ``close enough'' to
 the experimental data. Pressing one of the buttons labelled ``I want this'' under one of the graphs
 allows the user to copy the parameters used in the selected simulation to the network model.
+
+% We note that all scenarios for the 5 interactions were set to the basic scenario 1 for this parameter
+% sweep. The graph can be made fit the actual data more precisely by selecting scenario 2 settings for some
+% of the interactions. The choice of a scenario has little to no impact on the complexity of the model:
+% after choosing scenario 2 for all of the interactions, the whole parameter sweep takes the same time to complete.
 
 \begin{figure}
 \centering
@@ -448,8 +456,8 @@ In order to better profit from what ANIMO offers to the biologist, we suggest a 
     steps~\ref{step:def-topology} to~\ref{step:param-sweep} to refine the parameters.
   \item To check how changes in the network are reflected in the behavior of the model, we advise to use the comparison tools
     described in Section~\ref{sec:comparing-versions}.
-  \item When a model is obtained that behaves more closely to the experimental data, make it more precisely fitting
-    going back to step~\ref{step:precise-fit}.
+  \item When a model is obtained that behaves more closely to the experimental data,
+  its fitness can be improved going back to step~\ref{step:precise-fit}.
 \end{enumerate}
 If the model fits the data reasonably well only after modifications to the initial topology, it may contain some hypothetical or unexpected nodes.
 In that case, future experiments can be derived directly from the hypotheses introduced in the model and
@@ -465,6 +473,8 @@ of the tool and yet fully profit from its features.
 
 % anche Related work: es. Copasi
 % Altro su parameter sweep/sensitivity analysis? Noi usiamo un approccio un po' naif, senza tante pretese, senza tanti numeri.
+% Possibile future work: vedere meglio altri modi di applicare parameter setting nel contesto dei t.a., usare
+% calcolo distribuito per accelerare la ricerca dei parametri
 \section{Conclusions}
 ANIMO has been extended with a proper support for parameter synthesis. Now the tool can be used more efficiently
 to model biological networks, without concentrating exclusively on their topology.
