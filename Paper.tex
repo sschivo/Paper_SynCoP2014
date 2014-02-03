@@ -4,6 +4,8 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage[strings]{underscore}
+\usepackage[font=scriptsize,labelfont={bf}]{caption}
+\usepackage[justification=raggedright,nearskip=10pt,farskip=0pt]{subfig}
 
 
 \title{Setting parameters for biological models with ANIMO}
@@ -146,17 +148,19 @@ to formalize their knowledge without the need for additional mathematical traini
 
 \begin{figure}[htbp]
 \begin{center}
-  \includegraphics[width=.59\textwidth]{images/animo-ui}
-  \caption{ANIMO user interface.\label{fig:animo-ui}}
+\subfloat[\label{fig:animo-ui}]{\includegraphics[width=.55\textwidth]{images/animo-ui}} \quad
+\subfloat[\label{fig:animo-edge-ui}]{\includegraphics[width=.4\textwidth]{images/animo-edge-ui}}
+\caption{ANIMO user interface. (a) The main window of Cytoscape, with the ANIMO
+plug-in showing a model network and the result of a simulation. (b) Editing the parameters for an ANIMO interaction.}
 \end{center}
 \end{figure}
 
-\begin{figure}[htbp]
-\begin{center}
-  \includegraphics[width=.4\textwidth]{images/animo-edge-ui}
-  \caption{Editing the parameters for an ANIMO interaction.\label{fig:animo-edge-ui}}
-\end{center}
-\end{figure}
+% \begin{figure}[htbp]
+% \begin{center}
+%   \includegraphics[width=.4\textwidth]{images/animo-edge-ui}
+%   \caption{Editing the parameters for an ANIMO interaction.\label{fig:animo-edge-ui}}
+% \end{center}
+% \end{figure}
 
 
 
@@ -382,6 +386,8 @@ and realize whether in some cases the model significantly deviates from its norm
 We now present an example application of ANIMO's parameter sweep feature on the model shown in Figure~\ref{fig:animo-ui}.
 Thanks to parameter sweep, we can make a more exhaustive search than the one presented in Figure~\ref{fig:small-example-feedback},
 using an automatic approach instead of a manual trial-and-error process.
+We started by choosing scenario 2 for the two interactions involving ERK, while the other three interactions were left to scenario 1:
+this allows us to obtain a smoother looking graph for ERK.
 A logarithmic parameter sweep was performed, letting the parameter values
 vary over the 5 pre-sets ``very slow'' ($k = 0.001$), ``slow'' ($k = 0.002$), ``medium'' ($k = 0.004$), ``fast'' ($k = 0.008$), ``very fast'' ($k = 0.016$)
 for all 5 interactions in the network. This resulted in $\mbox{\it parameter choices}^{\mbox{\it\scriptsize interactions}} = 5 ^ 5 = 3\,125$ simulations, that were computed
@@ -409,6 +415,11 @@ By interacting with the interface, the user can choose to see more of the top-sc
 the width of the parameter settings for which the wanted behavior can still be considered ``close enough'' to
 the experimental data. Pressing one of the buttons labelled ``I want this'' under one of the graphs
 allows the user to copy the parameters used in the selected simulation to the network model.
+The graph in Figure~\ref{fig:animo-ui} was obtained by choosing the first graph shown in Figure~\ref{fig:parameter-sweep-result},
+i.e. setting the parameters as in Table~\ref{tab:parameters}. It can be seen that the model does not
+fit the data very precisely: this is because some nodes known to influence the activity of ERK
+were purposely left out of the example for simplicity's sake.
+
 
 % We note that all scenarios for the 5 interactions were set to the basic scenario 1 for this parameter
 % sweep. The graph can be made fit the actual data more precisely by selecting scenario 2 settings for some
@@ -426,6 +437,24 @@ allows the user to copy the parameters used in the selected simulation to the ne
 \caption{Result window of a logarithmic parameter sweep in the ANIMO model of Figure~\ref{fig:animo-ui}.\label{fig:parameter-sweep-result}}
 \end{figure}
 
+
+
+\begin{table}
+\centering
+\begin{tabular}{|l|l|}
+\hline
+ Reaction & $k$ \\
+\hline
+\hline
+EGF $\rightarrow$ EGFR & Fast \\
+EGFR $\rightarrow$ EGFR internalization & Medium \\
+EGFR internalization $\dashv$ EGFR & Very Fast \\
+EGFR $\rightarrow$ ERK & Fast \\
+ERK phosphatase $\dashv$ ERK & Medium\\
+\hline
+\end{tabular}
+\caption{Qualitative values of the parameters $k$ used in the example model to obtain the graph shown in Figure~\ref{fig:animo-ui}.\label{tab:parameters}}
+\end{table}
 
 % dopo aver presentato gli strumenti che forniamo, definiamo una procedura consigliata per usare ANIMO nel modo più efficace.
 % Ovviamente, oltre alle best practices serve anche l'esperienza, sia intesa come conoscenza di biologia che come esperienza
@@ -453,17 +482,29 @@ In order to better profit from what ANIMO offers to the biologist, we suggest a 
     We advise to let expert biologists perform this step on their own, or to perform it under their supervision,
     in order to keep the network both simple and realistic. For the same reason, we also advise not to introduce more than a couple of nodes at a time.
   \item Parameters for newly introduced interactions can be chosen as in step~\ref{step:set-rates}, possibly iterating
-    steps~\ref{step:def-topology} to~\ref{step:param-sweep} to refine the parameters.
+    steps~\ref{step:set-rates} to~\ref{step:param-sweep} to refine the parameters.
   \item To check how changes in the network are reflected in the behavior of the model, we advise to use the comparison tools
     described in Section~\ref{sec:comparing-versions}.
-  \item When a model is obtained that behaves more closely to the experimental data,
-  its fitness can be improved going back to step~\ref{step:precise-fit}.
 \end{enumerate}
 If the model fits the data reasonably well only after modifications to the initial topology, it may contain some hypothetical or unexpected nodes.
-In that case, future experiments can be derived directly from the hypotheses introduced in the model and
+In that case, future experiments can be derived directly from the hypotheses introduced in the model, and
 help the biologists decide which are the most precise explanations for the experimental observations.
 
-In general, the process described above allows the biologists to formalize their knowledge,
+A simplified graphical representation of the workflow can be found in Figure~\ref{fig:workflow}: the three
+degrees of precision with the parameter settings are highlighted with progressively darker shades of blue.
+Moreover, the figure helps to stress the fact that in our method changes in topology (green boxes) should be made as a
+last step, after a reasonable attempt at making the model fit via parameter adjustments.
+Again, it is important to remember that if a model behaves correctly only for very narrow parameter settings
+then it is not as robust as expected, so its topology may need to be reviewed.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{images/workflow}
+\caption{ANIMO modeling workflow.\label{fig:workflow}}
+\end{figure}
+
+
+The process described above allows the biologists to formalize their knowledge,
 and makes it easier to have group discussions when trying to combine multiple subnetworks in a more comprehensive model.
 It is worth noting that experience in both the specific biological setting and generic modeling of biological
 events represents an important asset for a faster and more realistic modeling process with ANIMO. However, as
@@ -473,14 +514,44 @@ of the tool and yet fully profit from its features.
 
 % anche Related work: es. Copasi
 % Altro su parameter sweep/sensitivity analysis? Noi usiamo un approccio un po' naif, senza tante pretese, senza tanti numeri.
-% Possibile future work: vedere meglio altri modi di applicare parameter setting nel contesto dei t.a., usare
-% calcolo distribuito per accelerare la ricerca dei parametri
+%parametric model checking, hytech?
+%imitator II ??
 \section{Conclusions}
 ANIMO has been extended with a proper support for parameter synthesis. Now the tool can be used more efficiently
 to model biological networks, without concentrating exclusively on their topology.
 In particular, the addition of an automatic parameter sweep feature allows the user
-to save considerable amounts of time, keeping closer to experimental data without the disadvantages
-coming from a hand-made parameter search.
+to save considerable amounts of time, keeping closer to experimental data without the need
+to perform a hand-made parameter search.
+
+In the future, we plan to improve our parameter analysis techniques, possibly using some of
+the techniques already developed for testing parameter sensitivity~\cite{inverse-ta1, inverse-ta2} and
+robustness~\cite{robust-ta1, robust-ta2, robust-ta3, robust-ta4} in \tas\ and hybrid systems more in general~\cite{decidability-ta-ha, imitator2}.
+As already stated, parameter sensitivity is very important in biological models: if a treatment
+derived from a model is based on narrow bounds for a parameter, that parameter must not exhibit significant
+variety among patients. By introducing an automatic analysis for parameter sensitivity, our tool
+could point out the zones of a network model where the user should concentrate more, for example by
+improving the topology, or by more focused parameter sweeps.
+Moreover, we also aim at applying some results from automata learning to the generation of
+\tas\ models based on experimental data: generating models that exhibit specific behaviors
+implies a careful definition of their parameter space.
+Finally, parametric model checking represents an interesting development direction:
+having a tool automatically output the parameter intervals for which some
+given outputs are observed is a highly valued resource for the biological researcher.
+Investigating the properties of the specific \tas\ models used in ANIMO
+could lead to important tractability results valid in our case, allowing us
+to apply methods not valid for \tas\ in general.
+%FUTURE WORK!!
+%parameter sensitivity: se un trattamento dipende da un parametro specifico, e' il caso che non si registri troppa varieta' per quel parametro tra i pazienti.
+% per quei parametri non sensibili, si eviti di concentrare troppi sforzi. Il tool potrebbe automaticamente determinare le ``zone calde'' della rete
+%anche alla luce di una possibile generazione di modelli t.a. basati su dati sperimentali, trovare modi intelligenti di generare i parametri
+%il fatto che i modelli che usiamo possano identificare un sottinsieme ristretto di t.a. potrebbe essere vantaggioso per la trattabilita' dei problemi
+%parametrized model checking: con che parametri e' possibile raggiungere questo stato?
+%definisci un obiettivo di quello che vuoi ottenere, e lui ti dice i [range di] parametri che arrivano a quell'evoluzione
+% Possibile future work: vedere meglio altri modi di applicare parameter setting nel contesto dei t.a., usare
+% calcolo distribuito per accelerare la ricerca dei parametri
+
+
+
 
 % \section{Bibliography}
 % 
