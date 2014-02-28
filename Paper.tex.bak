@@ -491,7 +491,7 @@ In order to better profit from what ANIMO offers to the biologist, we suggest a 
     described in Section~\ref{sec:comparing-versions}.
 \end{enumerate}
 If the model fits the data reasonably well only after modifications to the initial topology, it may contain some hypothetical or unexpected nodes.
-In that case, additional laboratory experiments can be designed starting from the hypotheses introduced in the model, and
+In that case, future experiments can be derived directly from the hypotheses introduced in the model, and
 help the biologists decide which are the most precise explanations for the experimental observations.
 
 A simplified graphical representation of the workflow can be found in Figure~\ref{fig:workflow}: the three
