@@ -101,6 +101,7 @@
 % Come funziona l'esperimento in silico (simulazione, model checking, grafici sim+data, slider)
 % Demo breve
 % Piani futuri: generazione di ipotesi, model checking (esempi??), high-performance analysis
+\listfiles
 
 \begin{document}
 
@@ -216,10 +217,21 @@ Use data and model to improve knowledge, generate hypotheses.
 
 
 \frame{\frametitle{All good and nice, but\dots}
-\only<1-1>{\Huge How do we set the parameters?}\only<2->{\Large How do we set the parameters?}
-\uncover<2->{\normal ANIMO requires less parameters than ODEs,\\but we still need to estimate them}
+{\Huge How to find the parameters?}\\ \ \\
+\begin{itemize}
+  \item<2-> ANIMO models are centered around the topology more than the parameters
+  \item<3-> ANIMO requires less parameters than ODEs
+  \item<4-> 
+\end{itemize}
+but we still need to estimate them
 }
 
+
+\frame{\frametitle{ANIMO live demo}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/animo_live_demo}
+\end{center}
+}
 
 % \frame{ \frametitle{Case study: \emph{in silico} experiments}
 %   \begin{center}
