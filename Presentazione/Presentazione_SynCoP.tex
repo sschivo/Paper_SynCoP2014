@@ -67,6 +67,8 @@
     %\setbeamertemplate{background}[ut][0]
 }
 
+\newcommand*{\xdash}[1][3em]{\rule[0.5ex]{#1}{0.55pt}}
+
 \makeatletter
 \setbeamertemplate{footline}
 {%
@@ -213,16 +215,17 @@ Use data and model to improve knowledge, generate hypotheses.
 \end{center}
 }
 
-
+\def\graphA{\includegraphics[scale=0.13]{images/feedback_params_graphA}}
+\newlength\graphASize
+\setlength\graphASize{\heightof{\graphA}}
 
 \frame{\frametitle{All good and nice, but\dots}
-{\Huge How to find the parameters?}\\ \ \\
+{\Huge How to find the parameters?}\\
 \begin{itemize}
-  \item<2-> ANIMO models are centered around the topology more than the parameters
-  \item<3-> ANIMO requires less parameters than ODEs
-  \item<4-> 
+  \item<1-> Insert parameters manually\only<1-1>{\\\includegraphics[scale=0.3]{images/scenario_parameter_dialog}}
+  \item<2-> Compare model versions \emph{subtracting} their activity graphs\only<2-2>{\\\begin{center}\begin{minipage}[c][\graphASize]{\textwidth}\begin{center}\graphA {\Huge -} \includegraphics[scale=0.13]{images/feedback_params_graphD}\end{center}\end{minipage}\xdash[12em]\\ \includegraphics[scale=0.1]{images/difference_network_d-a_larger}\end{center}}
 \end{itemize}
-but we still need to estimate them
+
 }
 
 
