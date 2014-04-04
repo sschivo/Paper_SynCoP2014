@@ -2,6 +2,7 @@
 \usetheme{ut}
 \usepackage{pgf}
 %\usepackage{slashbox}
+\usepackage{array}
 \usepackage{calc}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
@@ -223,7 +224,9 @@ Use data and model to improve knowledge, generate hypotheses.
 {\Huge How to find the parameters?}\\
 \begin{itemize}
   \item<1-> Insert parameters manually\only<1-1>{\\\includegraphics[scale=0.3]{images/scenario_parameter_dialog}}
-  \item<2-> Compare model versions \emph{subtracting} their activity graphs\only<2-2>{\\\begin{center}\begin{minipage}[c][\graphASize]{\textwidth}\begin{center}\graphA {\Huge -} \includegraphics[scale=0.13]{images/feedback_params_graphD}\end{center}\end{minipage}\xdash[12em]\\ \includegraphics[scale=0.1]{images/difference_network_d-a_larger}\end{center}}
+  \item<2-> Compare model versions \emph{subtracting} their activity graphs%\only<2-2>{\\\begin{center}\begin{minipage}[c][\graphASize]{.8\textwidth}\begin{center}\graphA \topskip0pt\vspace*{\fill}{\Huge -}\vspace*{\fill} \includegraphics[scale=0.13]{images/feedback_params_graphD}\end{center}\end{minipage}\ \\\xdash[15em]\\ \includegraphics[scale=0.1]{images/difference_network_d-a_larger}\end{center}}
+\only<2-2>{\\\begin{center}\begin{tabular}[c]{m{\graphASize}m{1em}m{\graphASize}}\graphA & \begin{center}{\Huge -}\end{center} & \includegraphics[scale=0.13]{images/feedback_params_graphD}\end{tabular}\ \\\xdash[15em]\\ \includegraphics[scale=0.1]{images/difference_network_d-a_larger}\end{center}}
+   \item<3-> Perform automatic parameter scans\only<3-3>{\\\includegraphics[width=.8\textwidth]{images/parameters_results_with_bars}}
 \end{itemize}
 
 }
@@ -259,11 +262,17 @@ Use data and model to improve knowledge, generate hypotheses.
           \item repeat until satisfied
       \end{itemize}
     \item<4-> ANIMO allows biologists to draw network ``sketches''
-    \item<5-> Complex models:\\
-      \begin{itemize}
-	\item perform \emph{in silico} experiments
-	\item use model checking
-      \end{itemize}
+%    \item<5-> Complex models:\\
+%      \begin{itemize}
+%	\item perform \emph{in silico} experiments
+%	\item use model checking
+%      \end{itemize}
+     \item<5-> Parameter choice:\\
+	\begin{itemize}
+		\item manual settings, choice of qualitative parameters
+		\item comparison of different model versions
+		\item parameter sweeps
+	\end{itemize}
   \end{itemize}
 }
 
@@ -273,14 +282,14 @@ Use data and model to improve knowledge, generate hypotheses.
 %     \item Model checking queries:\begin{itemize} \item user-friendly (templates)
 %     \item probabilistic (statistical model checking)
 %     \end{itemize}
-    \item<1-> Use \emph{in-silico experiments} to infer biological hypotheses which can be verified through in-vitro experiments
-      \only<1-1>{\vspace{1ex}\\\includegraphics[width=0.95\textwidth]{images/large_model_sox9_runx2}}
-    \item<2-> High-performance analysis of large models: multicore and distributed model checking
-    \item<3-> Get a model by feeding data (proposal to NWO):\begin{itemize}
-      \item Automata Learning to infer network topology from experimental data
-      \item sensitivity analysis and parameter fitting
-    \end{itemize}
-    \item<4-> Abstraction techniques to deal with large models
+   \item<1-> Deal with parameter sensitivity and model \emph{robustness}\only<2-3,5->{\\Typically, biological networks are robust: smaller parameter variations do not change the behavior of the network}
+    \item<3-> Get a model by feeding data: Automata Learning
+    \item<4-> Use \emph{in-silico experiments} to infer biological hypotheses which can be verified through in-vitro experiments
+      \only<4-4>{\vspace{1ex}\\\includegraphics[width=0.9\textwidth]{images/large_model_sox9_runx2}}
+    %\item<3-> High-performance analysis of large models: multicore and distributed model checking
+     % \item sensitivity analysis and parameter fitting
+    %\end{itemize}
+    \item<5-> Abstraction techniques to deal with large models
   \end{itemize}
 }
 
