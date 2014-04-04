@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.20)  3 APR 2014 16:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2013.11.20)  4 APR 2014 10:48
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1140,17 +1140,17 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./beamerthemeutresources.p
 df>]
-Overfull \vbox (36.82867pt too high) detected at line 119
+Overfull \vbox (36.82867pt too high) detected at line 118
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 119.
+(Font)              size <5> substituted on input line 118.
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-19.
+18.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [2
 
@@ -1158,33 +1158,33 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
 <images/mapk-erk.png, id=60, 889.3225pt x 971.63pt>
 File: images/mapk-erk.png Graphic file (type png)
  <use images/mapk-erk.png>
-Package pdftex.def Info: images/mapk-erk.png used on input line 121.
+Package pdftex.def Info: images/mapk-erk.png used on input line 120.
 (pdftex.def)             Requested size: 249.9992pt x 273.13684pt.
 
-Overfull \vbox (3.99022pt too high) detected at line 121
+Overfull \vbox (3.99022pt too high) detected at line 120
  []
 
 [3
 
  <./images/mapk-erk.png>]
-Overfull \vbox (48.56938pt too high) detected at line 144
+Overfull \vbox (48.56938pt too high) detected at line 143
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-44.
+43.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [4
 
  <./images/animo_user_interface.pdf>]
-Overfull \vbox (89.73651pt too high) detected at line 144
+Overfull \vbox (89.73651pt too high) detected at line 143
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-44.
+43.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [5
 
@@ -1192,73 +1192,73 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
 File: beamerthemeutresources.pdf Graphic file (type pdf)
  <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-44.
+43.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [6
 
 ]
-Overfull \vbox (40.19604pt too high) detected at line 153
+Overfull \vbox (40.19604pt too high) detected at line 152
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-53.
+52.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [7
 
  <./images/protein_activity00.pdf>]
-Overfull \vbox (40.19604pt too high) detected at line 153
+Overfull \vbox (40.19604pt too high) detected at line 152
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-53.
+52.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [8
 
  <./images/protein_activity01.pdf>]
-Overfull \vbox (40.19604pt too high) detected at line 153
+Overfull \vbox (40.19604pt too high) detected at line 152
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-53.
+52.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [9
 
  <./images/protein_activity02.pdf>]
-Overfull \vbox (40.19604pt too high) detected at line 153
+Overfull \vbox (40.19604pt too high) detected at line 152
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-53.
+52.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [10
 
  <./images/protein_activity03.pdf>]
-Overfull \vbox (40.19604pt too high) detected at line 153
+Overfull \vbox (40.19604pt too high) detected at line 152
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-53.
+52.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [11
 
  <./images/protein_activity04.pdf>]
-Overfull \vbox (40.19604pt too high) detected at line 153
+Overfull \vbox (40.19604pt too high) detected at line 152
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-53.
+52.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [12
 
@@ -1270,7 +1270,7 @@ File: images/starting_activity_graph.jpg Graphic file (type jpg)
 
 <use images/starting_activity_graph.jpg>
 Package pdftex.def Info: images/starting_activity_graph.jpg used on input line 
-169.
+168.
 (pdftex.def)             Requested size: 114.4342pt x 100.38087pt.
 \dialogHeight=\skip61
 
@@ -1279,41 +1279,41 @@ File: images/scenario_parameter_dialog.png Graphic file (type png)
 
 <use images/scenario_parameter_dialog.png>
 Package pdftex.def Info: images/scenario_parameter_dialog.png used on input lin
-e 172.
+e 171.
 (pdftex.def)             Requested size: 118.16302pt x 130.62976pt.
 File: images/scenario_parameter_dialog.png Graphic file (type png)
 
 <use images/scenario_parameter_dialog.png>
 Package pdftex.def Info: images/scenario_parameter_dialog.png used on input lin
-e 188.
+e 187.
 (pdftex.def)             Requested size: 118.16302pt x 130.62976pt.
 
 <images/parameter_network.jpg, id=229, 4488.77pt x 2991.175pt>
 File: images/parameter_network.jpg Graphic file (type jpg)
 
 <use images/parameter_network.jpg>
-Package pdftex.def Info: images/parameter_network.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_network.jpg used on input line 187.
 (pdftex.def)             Requested size: 67.32864pt x 44.86568pt.
 
 <images/parameter_graph.jpg, id=230, 4993.65625pt x 4283.00125pt>
 File: images/parameter_graph.jpg Graphic file (type jpg)
 
 <use images/parameter_graph.jpg>
-Package pdftex.def Info: images/parameter_graph.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_graph.jpg used on input line 187.
 (pdftex.def)             Requested size: 99.89421pt x 85.67812pt.
 
-Overfull \hbox (38.43718pt too wide) in paragraph at lines 188--188
+Overfull \hbox (38.43718pt too wide) in paragraph at lines 187--187
  [] 
  []
 
 
-Overfull \vbox (44.3124pt too high) detected at line 188
+Overfull \vbox (44.3124pt too high) detected at line 187
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-88.
+87.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [13
 
@@ -1322,30 +1322,30 @@ mages/activity_legend.pdf> <./images/parameter_graph.jpg>]
 File: images/scenario_parameter_dialog.png Graphic file (type png)
  <use images/scenario_parameter_dialog.png>
 Package pdftex.def Info: images/scenario_parameter_dialog.png used on input lin
-e 188.
+e 187.
 (pdftex.def)             Requested size: 118.16302pt x 130.62976pt.
 File: images/parameter_network.jpg Graphic file (type jpg)
 
 <use images/parameter_network.jpg>
-Package pdftex.def Info: images/parameter_network.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_network.jpg used on input line 187.
 (pdftex.def)             Requested size: 67.32864pt x 44.86568pt.
 File: images/parameter_graph.jpg Graphic file (type jpg)
  <use images/parameter_graph.jpg>
-Package pdftex.def Info: images/parameter_graph.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_graph.jpg used on input line 187.
 (pdftex.def)             Requested size: 99.89421pt x 85.67812pt.
 
-Overfull \hbox (38.43718pt too wide) in paragraph at lines 188--188
+Overfull \hbox (38.43718pt too wide) in paragraph at lines 187--187
  [] 
  []
 
 
-Overfull \vbox (81.5124pt too high) detected at line 188
+Overfull \vbox (81.5124pt too high) detected at line 187
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-88.
+87.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [14
 
@@ -1354,35 +1354,35 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
 File: images/interaction_E_S.png Graphic file (type png)
 
 <use images/interaction_E_S.png>
-Package pdftex.def Info: images/interaction_E_S.png used on input line 188.
+Package pdftex.def Info: images/interaction_E_S.png used on input line 187.
 (pdftex.def)             Requested size: 92.1879pt x 37.25562pt.
 File: images/scenario_parameter_dialog.png Graphic file (type png)
  <use images/scenario_parameter_dialog.png>
 Package pdftex.def Info: images/scenario_parameter_dialog.png used on input lin
-e 188.
+e 187.
 (pdftex.def)             Requested size: 118.16302pt x 130.62976pt.
 File: images/parameter_network.jpg Graphic file (type jpg)
 
 <use images/parameter_network.jpg>
-Package pdftex.def Info: images/parameter_network.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_network.jpg used on input line 187.
 (pdftex.def)             Requested size: 67.32864pt x 44.86568pt.
 File: images/parameter_graph.jpg Graphic file (type jpg)
  <use images/parameter_graph.jpg>
-Package pdftex.def Info: images/parameter_graph.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_graph.jpg used on input line 187.
 (pdftex.def)             Requested size: 99.89421pt x 85.67812pt.
 
-Overfull \hbox (38.43718pt too wide) in paragraph at lines 188--188
+Overfull \hbox (38.43718pt too wide) in paragraph at lines 187--187
  [] 
  []
 
 
-Overfull \vbox (145.70134pt too high) detected at line 188
+Overfull \vbox (145.70134pt too high) detected at line 187
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-88.
+87.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [15
 
@@ -1390,30 +1390,30 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
 File: images/scenario_parameter_dialog.png Graphic file (type png)
  <use images/scenario_parameter_dialog.png>
 Package pdftex.def Info: images/scenario_parameter_dialog.png used on input lin
-e 188.
+e 187.
 (pdftex.def)             Requested size: 118.16302pt x 130.62976pt.
 File: images/parameter_network.jpg Graphic file (type jpg)
 
 <use images/parameter_network.jpg>
-Package pdftex.def Info: images/parameter_network.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_network.jpg used on input line 187.
 (pdftex.def)             Requested size: 67.32864pt x 44.86568pt.
 File: images/parameter_graph.jpg Graphic file (type jpg)
  <use images/parameter_graph.jpg>
-Package pdftex.def Info: images/parameter_graph.jpg used on input line 188.
+Package pdftex.def Info: images/parameter_graph.jpg used on input line 187.
 (pdftex.def)             Requested size: 99.89421pt x 85.67812pt.
 
-Overfull \hbox (38.43718pt too wide) in paragraph at lines 188--188
+Overfull \hbox (38.43718pt too wide) in paragraph at lines 187--187
  [] 
  []
 
 
-Overfull \vbox (44.3124pt too high) detected at line 188
+Overfull \vbox (44.3124pt too high) detected at line 187
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-88.
+87.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [16
 
@@ -1422,7 +1422,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
-95.
+94.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [17
 
@@ -1431,16 +1431,16 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 1
 File: images/rete_iniziale.png Graphic file (type png)
 
 <use images/rete_iniziale.png>
-Package pdftex.def Info: images/rete_iniziale.png used on input line 208.
+Package pdftex.def Info: images/rete_iniziale.png used on input line 207.
 (pdftex.def)             Requested size: 276.559pt x 188.3992pt.
 
-Overfull \vbox (45.62474pt too high) detected at line 208
+Overfull \vbox (45.62474pt too high) detected at line 207
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-08.
+07.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [18
 
@@ -1449,16 +1449,16 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
 File: images/rete_con_valori.png Graphic file (type png)
 
 <use images/rete_con_valori.png>
-Package pdftex.def Info: images/rete_con_valori.png used on input line 208.
+Package pdftex.def Info: images/rete_con_valori.png used on input line 207.
 (pdftex.def)             Requested size: 276.559pt x 188.3992pt.
 
-Overfull \vbox (43.49557pt too high) detected at line 208
+Overfull \vbox (43.49557pt too high) detected at line 207
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-08.
+07.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [19
 
@@ -1467,66 +1467,66 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
 File: images/rete_dinamica.png Graphic file (type png)
 
 <use images/rete_dinamica.png>
-Package pdftex.def Info: images/rete_dinamica.png used on input line 208.
+Package pdftex.def Info: images/rete_dinamica.png used on input line 207.
 (pdftex.def)             Requested size: 276.559pt x 188.3992pt.
 
-Overfull \vbox (47.084pt too high) detected at line 208
+Overfull \vbox (47.084pt too high) detected at line 207
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-08.
+07.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [20
 
  <./images/rete_dinamica.png (PNG copy)>]
 File: images/rete_dinamica.png Graphic file (type png)
  <use images/rete_dinamica.png>
-Package pdftex.def Info: images/rete_dinamica.png used on input line 208.
+Package pdftex.def Info: images/rete_dinamica.png used on input line 207.
 (pdftex.def)             Requested size: 276.559pt x 188.3992pt.
 
 <images/grafico1.png, id=298, 2509.375pt x 1806.75pt>
 File: images/grafico1.png Graphic file (type png)
 
 <use images/grafico1.png>
-Package pdftex.def Info: images/grafico1.png used on input line 208.
+Package pdftex.def Info: images/grafico1.png used on input line 207.
 (pdftex.def)             Requested size: 153.64493pt x 110.60582pt.
 
-Overfull \vbox (47.084pt too high) detected at line 208
+Overfull \vbox (47.084pt too high) detected at line 207
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-08.
+07.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [21
 
  <./images/grafico1.png (PNG copy)>]
 File: images/rete_dinamica.png Graphic file (type png)
  <use images/rete_dinamica.png>
-Package pdftex.def Info: images/rete_dinamica.png used on input line 208.
+Package pdftex.def Info: images/rete_dinamica.png used on input line 207.
 (pdftex.def)             Requested size: 276.559pt x 188.3992pt.
 File: images/grafico1.png Graphic file (type png)
  <use images/grafico1.png>
-Package pdftex.def Info: images/grafico1.png used on input line 208.
+Package pdftex.def Info: images/grafico1.png used on input line 207.
 (pdftex.def)             Requested size: 153.64493pt x 110.60582pt.
 
 <images/grafico2.png, id=304, 2509.375pt x 1806.75pt>
 File: images/grafico2.png Graphic file (type png)
 
 <use images/grafico2.png>
-Package pdftex.def Info: images/grafico2.png used on input line 208.
+Package pdftex.def Info: images/grafico2.png used on input line 207.
 (pdftex.def)             Requested size: 153.64493pt x 110.60582pt.
 
-Overfull \vbox (48.02097pt too high) detected at line 208
+Overfull \vbox (48.02097pt too high) detected at line 207
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-08.
+07.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [22
 
@@ -1535,16 +1535,16 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
 File: images/chondrocyteModel.png Graphic file (type png)
 
 <use images/chondrocyteModel.png>
-Package pdftex.def Info: images/chondrocyteModel.png used on input line 215.
+Package pdftex.def Info: images/chondrocyteModel.png used on input line 214.
 (pdftex.def)             Requested size: 245.83282pt x 170.30717pt.
 
-Overfull \vbox (27.53271pt too high) detected at line 215
+Overfull \vbox (27.53271pt too high) detected at line 214
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-15.
+14.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [23
 
@@ -1553,7 +1553,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-27.
+26.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [24
 
@@ -1562,7 +1562,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-27.
+26.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [25
 
@@ -1571,7 +1571,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-27.
+26.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [26
 
@@ -1580,7 +1580,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-27.
+26.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [27
 
@@ -1589,16 +1589,16 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
 File: images/animo_live_demo.png Graphic file (type png)
 
 <use images/animo_live_demo.png>
-Package pdftex.def Info: images/animo_live_demo.png used on input line 234.
+Package pdftex.def Info: images/animo_live_demo.png used on input line 233.
 (pdftex.def)             Requested size: 245.83282pt x 208.02628pt.
 
-Overfull \vbox (49.52264pt too high) detected at line 234
+Overfull \vbox (49.52264pt too high) detected at line 233
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-34.
+33.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [28
 
@@ -1607,7 +1607,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-66.
+65.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [29
 
@@ -1616,7 +1616,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-66.
+65.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [30
 
@@ -1625,7 +1625,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-66.
+65.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [31
 
@@ -1634,7 +1634,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-66.
+65.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [32
 
@@ -1643,7 +1643,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-66.
+65.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [33
 
@@ -1653,21 +1653,21 @@ File: images/large_model_sox9_runx2.png Graphic file (type png)
 
 <use images/large_model_sox9_runx2.png>
 Package pdftex.def Info: images/large_model_sox9_runx2.png used on input line 2
-83.
+82.
 (pdftex.def)             Requested size: 291.92444pt x 159.74565pt.
 
-Overfull \hbox (6.53462pt too wide) in paragraph at lines 283--283
+Overfull \hbox (6.53462pt too wide) in paragraph at lines 282--282
 [][]  
  []
 
 
-Overfull \vbox (122.5575pt too high) detected at line 283
+Overfull \vbox (122.5575pt too high) detected at line 282
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-83.
+82.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [34
 
@@ -1675,7 +1675,7 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
 File: beamerthemeutresources.pdf Graphic file (type pdf)
  <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-83.
+82.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [35
 
@@ -1684,7 +1684,7 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-83.
+82.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [36
 
@@ -1693,18 +1693,18 @@ File: beamerthemeutresources.pdf Graphic file (type pdf)
 
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-83.
+82.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [37
 
 ]
-Overfull \vbox (34.48457pt too high) detected at line 292
+Overfull \vbox (34.48457pt too high) detected at line 291
  []
 
 File: beamerthemeutresources.pdf Graphic file (type pdf)
 <use beamerthemeutresources.pdf, page 1>
 Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
-92.
+91.
 (pdftex.def)             Requested size: 59.1428pt x 11.38109pt.
  [38
 
@@ -1718,231 +1718,28 @@ Package pdftex.def Info: beamerthemeutresources.pdf, page1 used on input line 2
 \tf@snm=\write8
 \openout8 = `Presentazione_SynCoP.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
  (./Presentazione_SynCoP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
-
-
- *File List*
-  beamer.cls    2012/10/15 development version 3.24 A class for typesetting pre
-sentations (rcs-revision 24853e6b98cf)
-beamerbasercs.sty    2012/11/13 (rcs-revision cb16a617839f)
-beamerbasemodes.sty    2012/04/15 (rcs-revision cc6557182d97)
-beamerbasedecode.sty    2010/05/01 (rcs-revision efa082c6111d)
-   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
-beamerbaseoptions.sty    2010/04/27 (rcs-revision 982469101dd6)
-  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
-geometry.sty    2010/09/12 v5.6 Page Geometry
-  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
- ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
-  size11.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
- pgfcore.sty    2010/04/11 v2.10 (rcs-revision 1.7)
-graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
-graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
-  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
-infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
- ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-  pgfsys.sty    2010/06/30 v2.10 (rcs-revision 1.37)
-  pgfrcs.sty    2010/10/25 v2.10 (rcs-revision 1.24)
-everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
-  pgfrcs.code.tex
-  pgfsys.code.tex
-pgfsyssoftpath.code.tex    2008/07/18  (rcs-revision 1.7)
-pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
-  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
-   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
- pgfcore.code.tex
- xxcolor.sty    2003/10/24 ver 0.1
-hyperref.sty    2012/11/06 v6.83m Hypertext links for LaTeX
-hobsub-hyperref.sty    2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-hobsub-generic.sty    2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-  hobsub.sty    2012/05/28 v1.13 Construct package bundles (HO)
-ifluatex.sty    2010/03/01 v1.3 Provides the ifluatex switch (HO)
- intcalc.sty    2007/09/27 v1.1 Expandable calculations with integers (HO)
-etexcmds.sty    2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-kvsetkeys.sty    2012/04/25 v1.16 Key value parser (HO)
-kvdefinekeys.sty    2011/04/07 v1.3 Define keys (HO)
-pdftexcmds.sty    2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
-pdfescape.sty    2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-bigintcalc.sty    2012/04/08 v1.3 Expandable calculations on big integers (HO)
-  bitset.sty    2011/01/30 v1.1 Handle bit-vector datatype (HO)
-uniquecounter.sty    2011/01/30 v1.2 Provide unlimited unique counter (HO)
-letltxmacro.sty    2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
- hopatch.sty    2012/05/28 v1.2 Wrapper for package hooks (HO)
-xcolor-patch.sty    2011/01/30 xcolor patch
-atveryend.sty    2011/06/30 v1.8 Hooks at the very end of document (HO)
-atbegshi.sty    2011/10/05 v1.16 At begin shipout hook (HO)
-refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
- hycolor.sty    2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
- auxhook.sty    2011/03/04 v1.3 Hooks for auxiliary files (HO)
-kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
-  pd1enc.def    2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
-     url.sty    2006/04/12  ver 3.3  Verb mode for urls, etc.
- hpdftex.def    2012/11/06 v6.83m Hyperref driver for pdfTeX
-rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-beamerbaserequires.sty    2010/05/01  (rcs-revision efa082c6111d)
-beamerbasecompatibility.sty    2012/05/01  (rcs-revision 67c48b3b652d)
-beamerbasefont.sty    2012/09/19  (rcs-revision 733629cd0c6c)
- amssymb.sty    2013/01/14 v3.01 AMS font symbols
-amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
-beamerbasetranslator.sty    2010/06/11  (rcs-revision 85fd1cc7fc42)
-translator.sty    2010/06/12 ver 1.10
-translator-language-mappings.tex
-beamerbasemisc.sty    2012/02/24  (rcs-revision 2ff5461be705)
-beamerbasetwoscreens.sty    2010/05/01  (rcs-revision efa082c6111d)
-beamerbaseoverlay.sty    2012/11/11  (rcs-revision 6afbc49b1109)
-beamerbasetitle.sty    2010/09/21  (rcs-revision f0446ed0b6ae)
-beamerbasesection.sty    2012/11/11  (rcs-revision 0056eef6f17f)
-beamerbaseframe.sty    2012/09/13  (rcs-revision dcd846607320)
-beamerbaseverbatim.sty    2012/08/30  (rcs-revision dfdb135076b3)
-beamerbaseframesize.sty    2011/09/12  (rcs-revision 70f9d8411e54)
-beamerbaseframecomponents.sty    2012/09/13  (rcs-revision dcd846607320)
-beamerbasecolor.sty    2010/06/06  (rcs-revision d1a9b48be06d)
-beamerbasenotes.sty    2010/05/01  (rcs-revision efa082c6111d)
-beamerbasetoc.sty    2012/10/02  (rcs-revision 5ed0f4010e8a)
-beamerbasetemplates.sty    2010/05/01  (rcs-revision efa082c6111d)
-beamerbaseauxtemplates.sty    2012/05/01  (rcs-revision 67c48b3b652d)
-beamerbaseboxes.sty    2012/05/13  (rcs-revision 56972908a390)
-beamerbaselocalstructure.sty    2012/11/13  (rcs-revision ddfba79dac19)
-enumerate.sty    1999/03/05 v3.00 enumerate extensions (DPC)
-beamerbasenavigation.sty    2012/04/03  (rcs-revision 42a0f21a412d)
-beamerbasetheorems.sty    2010/06/06  (rcs-revision 7e7cc5e53e9d)
- amsmath.sty    2013/01/14 v2.14 AMS math features
- amstext.sty    2000/06/29 v2.01
-  amsgen.sty    1999/11/30 v2.0
-  amsbsy.sty    1999/11/29 v1.2d
-  amsopn.sty    1999/12/14 v2.01 operator names
-  amsthm.sty    2004/08/06 v2.20
-beamerbasethemes.sty    2010/05/01  (rcs-revision efa082c6111d)
-beamerthemedefault.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
-beamerfontthemedefault.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
-beamercolorthemedefault.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
-beamerinnerthemedefault.sty    2012/05/01  (rcs-revision 67c48b3b652d)
-beamerouterthemedefault.sty    2012/10/02  (rcs-revision 5ed0f4010e8a)
-beamerthemeut.sty    2011/05/13 v0.1 Latex-Beamer theme for the University of T
-wente
-    tikz.sty    2010/10/13 v2.10 (rcs-revision 1.76)
-     pgf.sty    2008/01/15 v2.10 (rcs-revision 1.12)
-pgfcomp-version-0-65.sty    2007/07/03 v2.10 (rcs-revision 1.7)
-pgfcomp-version-1-18.sty    2007/07/23 v2.10 (rcs-revision 1.1)
-  pgffor.sty    2010/03/23 v2.10 (rcs-revision 1.18)
- pgfkeys.sty    
- pgfkeys.code.tex
-  pgffor.code.tex
-    tikz.code.tex
- pgfopts.sty    2011/06/02 v2.1 LaTeX package options with pgfkeys
-   euler.sty    1995/03/05 v2.5
- textpos.sty    2012/11/13 v1.7i
-beamerinnerthemerounded.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
-    calc.sty    2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-supp-pdf.mkii
-epstopdf-base.sty    2010/02/09 v2.5 Base part for package epstopdf
-  grfext.sty    2010/08/19 v1.1 Manage graphics extensions (HO)
-epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
- nameref.sty    2012/10/27 v2.43 Cross-referencing by name of section
-gettitlestring.sty    2010/12/03 v1.4 Cleanup title references (HO)
-Presentazione_SynCoP.out
-Presentazione_SynCoP.out
-translator-basic-dictionary-English.dict    
-translator-bibliography-dictionary-English.dict    
-translator-environment-dictionary-English.dict    
-translator-months-dictionary-English.dict    
-translator-numbers-dictionary-English.dict    
-translator-theorem-dictionary-English.dict    
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-    ueur.fd    2013/01/14 v3.01 Euler Roman
-    umsa.fd    2013/01/14 v3.01 AMS symbols A
-    umsb.fd    2013/01/14 v3.01 AMS symbols B
-    ueuf.fd    2013/01/14 v3.01 Euler Fraktur
-    ueus.fd    2013/01/14 v3.01 Euler Script
-   ueuex.fd    2013/01/14 v3.01 Euler extra symbols
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/mapk-erk.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/starting_activity_graph.jpg
-images/scenario_parameter_dialog.png
-images/scenario_parameter_dialog.png
-images/parameter_network.jpg
-images/parameter_graph.jpg
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/scenario_parameter_dialog.png
-images/parameter_network.jpg
-images/parameter_graph.jpg
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/interaction_E_S.png
-images/scenario_parameter_dialog.png
-images/parameter_network.jpg
-images/parameter_graph.jpg
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/scenario_parameter_dialog.png
-images/parameter_network.jpg
-images/parameter_graph.jpg
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/rete_iniziale.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/rete_con_valori.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/rete_dinamica.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/rete_dinamica.png
-images/grafico1.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/rete_dinamica.png
-images/grafico1.png
-images/grafico2.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/chondrocyteModel.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/animo_live_demo.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-images/large_model_sox9_runx2.png
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
-beamerthemeutresources.pdf    Graphic file (type pdf)
- ***********
-
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
 Package rerunfilecheck Info: File `Presentazione_SynCoP.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
  ) 
 Here is how much of TeX's memory you used:
- 18376 strings out of 493307
- 347198 string characters out of 6139904
- 425729 words of memory out of 5000000
- 21260 multiletter control sequences out of 15000+600000
+ 18353 strings out of 493307
+ 346678 string characters out of 6139904
+ 424838 words of memory out of 5000000
+ 21237 multiletter control sequences out of 15000+600000
  22878 words of font info for 90 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 52i,14n,60p,723b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,14n,60p,586b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texl
